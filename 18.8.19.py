@@ -9,7 +9,7 @@ def costa(l):
     cond_cheep = None
     cond_whole_price = None
     price = None
-    discount = None
+    discount = 0
 
 
     age = list(map(int,input(f"Через пробел введите возраст {l} участников: ").split()))
