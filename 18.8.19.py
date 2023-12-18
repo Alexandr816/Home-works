@@ -16,9 +16,9 @@ def costa(l):
     if tickets == len(age):
         print(f"Рассчет стоимости {l} билетов")
         for i, j in enumerate(age):
-            cond_free = [(j * 0) for j in age if j < 18]
-            cond_cheep = [(j / j * 990) for j in age if 18 <= j <= 25]
-            cond_whole_price = [(j / j * 1390) for j in age if j > 25]
+            cond_free = [(j * free) for j in age if j < 18]
+            cond_cheep = [(j / j * cheep) for j in age if 18 <= j <= 25]
+            cond_whole_price = [(j / j * whole_price) for j in age if j > 25]
             price = (free * len(cond_free)) + (cheep * len(cond_cheep)) + (whole_price * len(cond_whole_price))
             if len(age) > 3:
                 discount = price / 100 * 10
