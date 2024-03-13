@@ -1,0 +1,476 @@
+1710277689861	geckodriver	INFO	Listening on 127.0.0.1:56185
+1710277692924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56186" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileZfsYKL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710277693517	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710277693665	Marionette	INFO	Listening on port 56193
+WebDriver BiDi listening on ws://127.0.0.1:56186
+Read port: 56193
+1710277694198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56186/devtools/browser/abb2d3c5-a533-4e24-933a-67ce20d55056
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+Corrupt JPEG data: 1 extraneous bytes before marker 0xc4
+1710277702833	Marionette	INFO	Stopped listening on port 56193
+Dynamically enable window occlusion 1
+[Parent 4624, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
+1710277771178	geckodriver	INFO	Listening on 127.0.0.1:56231
+1710277774221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56232" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileNv7RFe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710277775919	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710277776059	Marionette	INFO	Listening on port 56241
+WebDriver BiDi listening on ws://127.0.0.1:56232
+Read port: 56241
+1710277776562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56232/devtools/browser/19b4979c-648c-45ea-8712-f3f2259eb002
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710277787662	Marionette	INFO	Stopped listening on port 56241
+Dynamically enable window occlusion 1
+1710277865531	geckodriver	INFO	Listening on 127.0.0.1:56277
+1710277868595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56278" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileVeyl9k"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710277869160	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710277869296	Marionette	INFO	Listening on port 56285
+Read port: 56285
+WebDriver BiDi listening on ws://127.0.0.1:56278
+1710277869522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56278/devtools/browser/97eba83f-b6d5-429c-8476-12fe8c8e32ac
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+1710277874627	Marionette	INFO	Stopped listening on port 56285
+Dynamically enable window occlusion 1
+1710278149844	geckodriver	INFO	Listening on 127.0.0.1:56312
+1710278152910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56313" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileBIQYym"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710278153464	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710278153601	Marionette	INFO	Listening on port 56320
+Read port: 56320
+WebDriver BiDi listening on ws://127.0.0.1:56313
+1710278153867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56313/devtools/browser/93e4c943-91c6-4429-ba20-61bd251ecf6c
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710278165130	Marionette	INFO	Stopped listening on port 56320
+Dynamically enable window occlusion 1
+1710278282122	geckodriver	INFO	Listening on 127.0.0.1:56359
+1710278285173	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56360" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilepmjS45"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710278285877	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710278286014	Marionette	INFO	Listening on port 56367
+WebDriver BiDi listening on ws://127.0.0.1:56360
+Read port: 56367
+1710278286580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56360/devtools/browser/4d66fc30-8779-4ac1-89d2-1bcedd24e6ea
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710278297241	Marionette	INFO	Stopped listening on port 56367
+Dynamically enable window occlusion 1
+1710278425890	geckodriver	INFO	Listening on 127.0.0.1:56402
+1710278428975	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56403" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile1Vfzs6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710278429587	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710278429739	Marionette	INFO	Listening on port 56410
+WebDriver BiDi listening on ws://127.0.0.1:56403
+Read port: 56410
+1710278430180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56403/devtools/browser/699fac50-026d-4ed1-993d-f9cda4c21654
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710278450105	Marionette	INFO	Stopped listening on port 56410
+Dynamically enable window occlusion 1
+1710278550067	geckodriver	INFO	Listening on 127.0.0.1:56446
+1710278553116	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56447" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileuKq4o5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710278553671	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710278553806	Marionette	INFO	Listening on port 56454
+Read port: 56454
+WebDriver BiDi listening on ws://127.0.0.1:56447
+1710278554090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56447/devtools/browser/d19a5076-7335-4402-bffc-038ac3b889eb
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710278574709	Marionette	INFO	Stopped listening on port 56454
+Dynamically enable window occlusion 1
+1710278650329	geckodriver	INFO	Listening on 127.0.0.1:56491
+1710278653378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56492" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileeBhqEM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710278653937	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710278654073	Marionette	INFO	Listening on port 56499
+Read port: 56499
+WebDriver BiDi listening on ws://127.0.0.1:56492
+1710278654306	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56492/devtools/browser/14a9094e-9eb5-49cd-94bd-870b72be8610
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710278665874	Marionette	INFO	Stopped listening on port 56499
+Dynamically enable window occlusion 1
+[Parent 5560, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:599
+1710278825930	geckodriver	INFO	Listening on 127.0.0.1:56538
+1710278829007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile6p7c4v"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710278829556	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710278829691	Marionette	INFO	Listening on port 56546
+Read port: 56546
+WebDriver BiDi listening on ws://127.0.0.1:56539
+1710278829929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56539/devtools/browser/415d3ad8-7b00-43e3-9e30-f257671596d9
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710278841341	Marionette	INFO	Stopped listening on port 56546
+Dynamically enable window occlusion 1
+1710278945728	geckodriver	INFO	Listening on 127.0.0.1:56582
+1710278948783	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileqNx2V7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710278949330	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710278949465	Marionette	INFO	Listening on port 56590
+WebDriver BiDi listening on ws://127.0.0.1:56583
+Read port: 56590
+1710278949723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56583/devtools/browser/8c5ae1cb-071f-40ff-9ab8-4ab03ced8cfa
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710278961163	Marionette	INFO	Stopped listening on port 56590
+Dynamically enable window occlusion 1
+1710279234446	geckodriver	INFO	Listening on 127.0.0.1:56680
+1710279237504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56681" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile3zrD79"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710279238068	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710279238203	Marionette	INFO	Listening on port 56688
+Read port: 56688
+WebDriver BiDi listening on ws://127.0.0.1:56681
+1710279238433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56681/devtools/browser/074a2927-f228-4147-a8a5-d9517901aac9
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710279249826	Marionette	INFO	Stopped listening on port 56688
+Dynamically enable window occlusion 1
+1710279445110	geckodriver	INFO	Listening on 127.0.0.1:56729
+1710279448166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56730" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile5BB6TT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710279448768	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710279448906	Marionette	INFO	Listening on port 56737
+WebDriver BiDi listening on ws://127.0.0.1:56730
+Read port: 56737
+1710279449469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56730/devtools/browser/319a4d49-bb70-4171-ba34-78afe8f2b302
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710279461007	Marionette	INFO	Stopped listening on port 56737
+Dynamically enable window occlusion 1
+1710279703520	geckodriver	INFO	Listening on 127.0.0.1:56797
+1710279706577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56798" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile2Mq9K1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710279707130	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710279707268	Marionette	INFO	Listening on port 56805
+Read port: 56805
+WebDriver BiDi listening on ws://127.0.0.1:56798
+1710279707553	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56798/devtools/browser/e6696a6b-598d-480f-b1a9-11f4333dc73c
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710279719010	Marionette	INFO	Stopped listening on port 56805
+Dynamically enable window occlusion 1
+[Parent 4164, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:599
+1710280106138	geckodriver	INFO	Listening on 127.0.0.1:56841
+1710280109188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56842" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile4T25fw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710280109751	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710280109887	Marionette	INFO	Listening on port 56849
+Read port: 56849
+WebDriver BiDi listening on ws://127.0.0.1:56842
+1710280110149	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56842/devtools/browser/b52bcb89-b1be-4ef4-a70b-e375b6602369
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+Corrupt JPEG data: 1 extraneous bytes before marker 0xc4
+1710280118303	Marionette	INFO	Stopped listening on port 56849
+Dynamically enable window occlusion 1
+1710315108173	geckodriver	INFO	Listening on 127.0.0.1:57208
+1710315111209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileK9Jnoe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710315112141	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710315112396	Marionette	INFO	Listening on port 57216
+Read port: 57216
+WebDriver BiDi listening on ws://127.0.0.1:57209
+1710315113499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57209/devtools/browser/f7ede3cd-a1d2-49b5-bc3a-ebd417d0a85a
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+1710315125328	Marionette	INFO	Stopped listening on port 57216
+Dynamically enable window occlusion 1
+1710315153346	geckodriver	INFO	Listening on 127.0.0.1:57253
+1710315156395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57254" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile50koHp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710315156955	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710315157089	Marionette	INFO	Listening on port 57261
+Read port: 57261
+WebDriver BiDi listening on ws://127.0.0.1:57254
+1710315157330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57254/devtools/browser/910b2bcd-eafb-4666-a30e-fd020c0b842d
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+1710315170271	Marionette	INFO	Stopped listening on port 57261
+Dynamically enable window occlusion 1
+1710316229122	geckodriver	INFO	Listening on 127.0.0.1:57347
+1710316232189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57348" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilexTC42Q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710316232739	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710316232874	Marionette	INFO	Listening on port 57355
+WebDriver BiDi listening on ws://127.0.0.1:57348
+Read port: 57355
+1710316233128	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57348/devtools/browser/1a74b3ae-a881-45ee-a1ea-d6d32165a6d3
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710316249153	Marionette	INFO	Stopped listening on port 57355
+Dynamically enable window occlusion 1
+[Parent 9616, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:599
+1710316827095	geckodriver	INFO	Listening on 127.0.0.1:57408
+1710316830171	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileNv8MfW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710316830721	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710316830856	Marionette	INFO	Listening on port 57416
+Read port: 57416
+WebDriver BiDi listening on ws://127.0.0.1:57409
+1710316831103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57409/devtools/browser/03d955d2-5b63-4493-a338-7fd19156f355
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+Corrupt JPEG data: 1 extraneous bytes before marker 0xc4
+1710316837120	Marionette	INFO	Stopped listening on port 57416
+Dynamically enable window occlusion 1
+1710317115332	geckodriver	INFO	Listening on 127.0.0.1:57447
+1710317118390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57448" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilehWi7V4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710317118955	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710317119093	Marionette	INFO	Listening on port 57455
+Read port: 57455
+WebDriver BiDi listening on ws://127.0.0.1:57448
+1710317119320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57448/devtools/browser/9d81a702-02ed-45a8-b2c6-837a842d88f4
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+Corrupt JPEG data: 1 extraneous bytes before marker 0xc4
+1710317127107	Marionette	INFO	Stopped listening on port 57455
+Dynamically enable window occlusion 1
+1710318492274	geckodriver	INFO	Listening on 127.0.0.1:57566
+1710318495322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57567" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilevftw2r"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710318495881	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710318496014	Marionette	INFO	Listening on port 57575
+Read port: 57575
+WebDriver BiDi listening on ws://127.0.0.1:57567
+1710318496238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57567/devtools/browser/365e6283-bb9b-470b-a99d-19cd2ad3004c
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710318512250	Marionette	INFO	Stopped listening on port 57575
+Dynamically enable window occlusion 1
+1710319315617	geckodriver	INFO	Listening on 127.0.0.1:57691
+1710319318667	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57692" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileHW3JWU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710319319236	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710319319372	Marionette	INFO	Listening on port 57699
+Read port: 57699
+WebDriver BiDi listening on ws://127.0.0.1:57692
+1710319319675	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57692/devtools/browser/8733b4bd-fae5-43b1-a566-015a23ea3d2c
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+Corrupt JPEG data: 1 extraneous bytes before marker 0xc4
+1710319327451	Marionette	INFO	Stopped listening on port 57699
+Dynamically enable window occlusion 1
+1710319894007	geckodriver	INFO	Listening on 127.0.0.1:57751
+1710319897075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57752" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileKvcGbI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710319897620	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710319897754	Marionette	INFO	Listening on port 57759
+WebDriver BiDi listening on ws://127.0.0.1:57752
+Read port: 57759
+1710319898207	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57752/devtools/browser/0805a3ae-07d4-4879-95fb-e63110ef2be4
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 633))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+Corrupt JPEG data: 1 extraneous bytes before marker 0xc4
+1710319904208	Marionette	INFO	Stopped listening on port 57759
+Dynamically enable window occlusion 1
+1710320024148	geckodriver	INFO	Listening on 127.0.0.1:57790
+1710320027204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57791" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileThNRPi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710320027827	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710320027964	Marionette	INFO	Listening on port 57798
+WebDriver BiDi listening on ws://127.0.0.1:57791
+Read port: 57798
+1710320028444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57791/devtools/browser/b11757c8-aa1b-4698-919c-fa38f0f36aff
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+Corrupt JPEG data: 1 extraneous bytes before marker 0xc4
+1710320034283	Marionette	INFO	Stopped listening on port 57798
+Dynamically enable window occlusion 1
+1710320099707	geckodriver	INFO	Listening on 127.0.0.1:57828
+1710320102760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57829" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilewd0v46"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710320103314	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710320103447	Marionette	INFO	Listening on port 57836
+Read port: 57836
+WebDriver BiDi listening on ws://127.0.0.1:57829
+1710320103719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57829/devtools/browser/c1e40567-e654-4ca1-9f87-3415f8976202
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+Corrupt JPEG data: 1 extraneous bytes before marker 0xc4
+1710320109596	Marionette	INFO	Stopped listening on port 57836
+Dynamically enable window occlusion 1
+1710320284163	geckodriver	INFO	Listening on 127.0.0.1:57869
+1710320287224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57870" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileLHszmm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710320287767	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710320287902	Marionette	INFO	Listening on port 57877
+WebDriver BiDi listening on ws://127.0.0.1:57870
+Read port: 57877
+1710320288347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57870/devtools/browser/8a78e70a-e5d3-4af5-b59d-875f43b96f2b
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+Corrupt JPEG data: 1 extraneous bytes before marker 0xc4
+1710320294992	Marionette	INFO	Stopped listening on port 57877
+Dynamically enable window occlusion 1
+1710320322638	geckodriver	INFO	Listening on 127.0.0.1:57907
+1710320325700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57908" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilewfm7i7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710320326261	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710320326394	Marionette	INFO	Listening on port 57915
+Read port: 57915
+WebDriver BiDi listening on ws://127.0.0.1:57908
+1710320326608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57908/devtools/browser/59409de4-b240-4bf1-8fcb-2099b37450a4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+Corrupt JPEG data: 1 extraneous bytes before marker 0xc4
+1710320334218	Marionette	INFO	Stopped listening on port 57915
+Dynamically enable window occlusion 1
+1710320418879	geckodriver	INFO	Listening on 127.0.0.1:57952
+1710320421918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57953" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile9wpuIE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710320422528	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710320422661	Marionette	INFO	Listening on port 57960
+WebDriver BiDi listening on ws://127.0.0.1:57953
+Read port: 57960
+1710320423205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57953/devtools/browser/95b8834f-0e1c-4156-ad17-7cd794ab71a0
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript error: https://petfriends.skillfactory.ru/, line 66: TypeError: input is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://petfriends.skillfactory.ru."
+1710320438780	Marionette	INFO	Stopped listening on port 57960
+Dynamically enable window occlusion 1
