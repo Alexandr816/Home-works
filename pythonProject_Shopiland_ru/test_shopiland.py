@@ -276,9 +276,10 @@ class Test_looking:
 
 
 class Test_filter:
-    '''В этом классе тестируются фильтры главной страницы'''
+    '''В этом классе тестируются фильтры страницы'''
 
     def test_f_by_price(self,driver,found):
+        '''Проверяется фильтр по возростанию и убыванию цены'''
         WebDriverWait(driver,90).until(ES.element_to_be_clickable((By.XPATH, '//div[contains(text(),"цене")]')))
         u = driver.find_elements(By.XPATH, '//div[contains(text(),"цене")]')
         u[0].click()
@@ -288,7 +289,7 @@ class Test_filter:
             try:
                 c2(i_x[0].text) >= c2(i_x[i].text)
             except:
-                document2(driver,'filter','фильтр цена +')
+                document2(driver,'filter',f'фильтр цена{c2(i_x[0].text)} > {c2(i_x[i].text)}')
         #WebDriverWait(driver, 60).until(ES.element_to_be_clickable((By.XPATH, '//div[contains(text(),"цене")]')))
         u = driver.find_elements(By.XPATH, '//div[contains(text(),"цене")]')
         u[0].click()
@@ -298,7 +299,7 @@ class Test_filter:
             try:
                 c2(i_x[0].text) <= c2(i_x[i].text)
             except:
-                document2(driver, 'filter', 'фильтр цена -')
+                document2(driver, 'filter', f'фильтр цена{c2(i_x[0].text)} < {c2(i_x[i].text)}')
 
 
     def test_f_popular(self,driver,found):
