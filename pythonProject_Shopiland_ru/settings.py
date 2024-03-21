@@ -46,11 +46,15 @@ def c4(x):
 
 def c2(x):
     c = []
+    fr = []
     for s in range(len(x)):
         if x[s] != ',' and x[s] != '₽':
-            c.append(x[s])
+            fr.append(x[s])
         else:
             break
+    for s in range(len(fr)):
+        if fr[s] != ' ':
+            c.append(fr[s])
     f = ''
     c = int(f.join(c))
     return c
