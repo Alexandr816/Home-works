@@ -677,7 +677,7 @@ class Test_SEO:
         speed(driver,url)
         seo(driver,url)
         ti_tle(driver,url)
-        document(driver, f'test_seo', 'canonical link +\nimg alt +\n../время загрузки.txt-- смотри')
+        document(driver, f'test_seo_search', 'canonical link +\nimg alt +\n../время загрузки.txt-- смотри')
 
 
     def test_seo_lady(self,driver):
@@ -685,7 +685,7 @@ class Test_SEO:
         speed(driver,url)
         seo(driver,url)
         ti_tle(driver,url)
-        document(driver, f'test_seo', 'canonical link +\nimg alt +\n../время загрузки.txt-- смотри')
+        document(driver, f'test_seo_lady', 'canonical link +\nimg alt +\n../время загрузки.txt-- смотри')
 
 
     def test_home_page(self, driver):
@@ -714,7 +714,10 @@ class Test_SEO:
         print(descrip_n.get_attribute('content').title())
         assert descrip_n.get_attribute('content').title() != ' '
         icon = driver.find_element(By.CSS_SELECTOR,'link[rel="icon"]')
-        assert icon.get_attribute('href') != ' '# дописать запись информации и зациклить
+        cononical = driver.find_element(By.CSS_SELECTOR,'link[rel="canonical"]')
+        assert icon.get_attribute('href') != ' '
+        assert cononical.get_attribute('href') != ' '
+        document(driver,'test_home_page',f'товары кликабельны, сео -- все хорошо, время- {t3}')
 
 
 

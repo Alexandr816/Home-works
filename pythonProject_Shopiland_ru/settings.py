@@ -245,7 +245,9 @@ def seo(driver,url):
     img_ = driver.find_elements(By.CSS_SELECTOR, 'img')
     for i in range(len(img_)):
         assert img_[i].get_attribute('alt') != ' '
-    assert css_(driver,'link[rel="canonical"]')
+    print('alt is ok')
+    assert css_(driver, 'link[rel="canonical"]')
+    print('cononical link is ok')
 
 
 def ti_tle(driver,url):
