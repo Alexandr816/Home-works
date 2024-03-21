@@ -287,7 +287,7 @@ class Test_filter:
         print(driver.find_element(By.CSS_SELECTOR,'span[class="css-bwtgpb"]').text)
         for i in range(len(i_x)):
             try:
-                c2(i_x[0].text) >= c2(i_x[i].text)
+                c2(i_x[0].text) <= c2(i_x[i].text)
             except:
                 document2(driver,'filter',f'фильтр цена{c2(i_x[0].text)} > {c2(i_x[i].text)}')
         #WebDriverWait(driver, 60).until(ES.element_to_be_clickable((By.XPATH, '//div[contains(text(),"цене")]')))
@@ -297,7 +297,7 @@ class Test_filter:
         print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-bwtgpb"]').text)
         for i in range(len(i_x)):
             try:
-                c2(i_x[0].text) <= c2(i_x[i].text)
+                c2(i_x[0].text) >= c2(i_x[i].text)
             except:
                 document2(driver, 'filter', f'фильтр цена{c2(i_x[0].text)} < {c2(i_x[i].text)}')
 
