@@ -72,7 +72,7 @@ class Test_looking:
 
     def test_city_delivery(self, driver, found):
         '''проверяет возможность доставки КазанЭкспресс в город Москва.
-        так же проверяет возможность фильтрации по городу и цене(от минимальной)'''
+        так же проверяет возможность фильтрации по городу'''
         city_is = 'москва'
         driver.implicitly_wait(60)
         ok_ = driver.find_element(By.CSS_SELECTOR, 'span[class="css-meuap9"]')
