@@ -148,6 +148,7 @@ class Test_looking:
 
 
     def test_review(self,driver):
+        '''Проверяет кнопку "Отзывы" и страницу с отзывами'''
         driver.get(shop_look)
         driver.implicitly_wait(60)
         ok_ = driver.find_element(By.CSS_SELECTOR, 'span[class="css-meuap9"]')
@@ -351,7 +352,7 @@ class Test_filter:
         try:
             driver.find_element(By.XPATH, f'//h1[contains(text(),"{c(a)} от {mi_n}")]')
         except:
-            document(driver, f"f_min_price_max_fail", f"f_min_price_max_fail")
+            document(driver, f"test_f_min_price_max", f"f_min_price_max_fail")
         screen(driver,'min price')
 
         '''сравниваем элементы с минимальным значением'''
@@ -360,7 +361,7 @@ class Test_filter:
         for i in range(len(i_x)):
             if int(mi_n) > c4(i_x[i].text):
                 print(f"{int(mi_n)} > {c4(i_x[i].text)}")
-                document(driver, ' f min', f'\nцена на странице ниже: {i_x[i].text}, чем минимальная--{mi_n}')
+                document(driver, 'test_f_min_price_max', f'цена на странице ниже: {i_x[i].text}, чем минимальная--{mi_n}')
 
         '''устанавливаем максимальную c минимальной цену'''
         driver.find_element('id', 'max_price').clear()
@@ -370,7 +371,7 @@ class Test_filter:
         try:
             driver.find_element(By.XPATH, f'//h1[contains(text(),"{c(a)} от {mi_n} до {ma_x}")]')
         except:
-            document(driver, f"f_min_price_max_fail", f"f_min_price_max_fail")
+            document(driver, f"test_f_min_price_max", f"f_min_price_max_fail")
         screen(driver, 'min & max price')
 
         '''сравниваем элементы с максимальным значением'''
@@ -392,7 +393,7 @@ class Test_filter:
         try:
             driver.find_element(By.XPATH, f'//h1[contains(text(),"{c(a)} от {mi_n} до {ma_x}")]')
         except:
-            document(driver, f"f_min_price_max_fail", f"f_min_price_max_fail")
+            document(driver, f"test_f_min_price_max", f"f_min_price_max_fail")
         screen(driver, 'max price')
 
         '''сравниваем элементы с максимальным значением'''
@@ -400,7 +401,7 @@ class Test_filter:
         print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-bwtgpb"]').text)
         for i in range(len(i_x)):
             if int(ma_x) < c4(i_x[i].text):
-                document(driver, ' f max', f'\nцена на странице выше: {i_x[i].text}, чем максимальная--{ma_x}')
+                document(driver, ' test_f_min_price_max', f'\nцена на странице выше: {i_x[i].text}, чем максимальная--{ma_x}')
 
 
 
