@@ -463,46 +463,39 @@ class Test_filter_w:
         u[0].click()
         i_x = driver.find_elements(By.CSS_SELECTOR,'span[class="css-bwtgpb"]')
         print(driver.find_element(By.CSS_SELECTOR,'span[class="css-bwtgpb"]').text)
+        document2(driver, 'test_f_by_price_woman',
+                  f'{driver.find_element(By.CSS_SELECTOR, 'span[class="css-bwtgpb"]').text}')
         for i in range(len(i_x)):
-            try:
-                if c2(i_x[0].text) >= c2(i_x[i].text):
-                    document2(driver, 'test_f_by_pricew', 'фильтр цена +')
-            except:
-                document2(driver,'test_f_by_pricew','фильтр цена +')
+            if c2(i_x[0].text) <= c2(i_x[i].text):
+                document(driver, 'test_f_by_price_woman', 'фильтр цена правильно')
+            else:
+                document(driver, 'test_f_by_price_woman', 'фильтр цена неправильно')
+
         #WebDriverWait(driver, 60).until(ES.element_to_be_clickable((By.XPATH, '//div[contains(text(),"цене")]')))
         u = driver.find_elements(By.XPATH, '//div[contains(text(),"цене")]')
         u[0].click()
         i_x = driver.find_elements(By.CSS_SELECTOR, 'span[class="css-bwtgpb"]')
         print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-bwtgpb"]').text)
+        document2(driver, 'test_f_by_price_woman',
+                  f'{driver.find_element(By.CSS_SELECTOR, 'span[class="css-bwtgpb"]').text}')
         for i in range(len(i_x)):
-            try:
-                if c2(i_x[0].text) <= c2(i_x[i].text):
-                    document2(driver, 'test_f_by_pricew', 'фильтр цена -')
-            except:
-                document2(driver, 'test_f_by_pricew', 'фильтр цена -')
+            if c2(i_x[0].text) >= c2(i_x[i].text):
+                document(driver, 'test_f_by_price_woman', 'фильтр цена правильно')
+            else:
+                document(driver, 'test_f_by_price_woman', 'фильтр цена неправильно')
 
 
     def test_f_popular_woman(self,driver,found2):
         '''проверяем фильтрацию по популярности'''
         i_x = driver.find_elements(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]')
         print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]').text)
+        document2(driver, 'test_f_popular_woman',
+                  f'{driver.find_element(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]').text}')
         for i in range(len(i_x)):
-            try:
-                if c3(i_x[0].text) >= c3(i_x[i].text):
-                    document2(driver, 'test_f_popular-w', 'фильтр популярность -')
-            except:
-                document2(driver, 'test_f_popular-w', 'фильтр популярность -')
-        u = driver.find_elements(By.XPATH, '//div[contains(text(),"популярности")]')
-        u[0].click()
-        screen(driver,'фильтр популярность +')
-        i_x = driver.find_elements(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]')
-        print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]').text)
-        for i in range(len(i_x)):
-            try:
-                c3(i_x[0].text) <= c3(i_x[i].text)
-            except:
-                document2(driver, 'test_f_popular-w', 'фильтр популярности +')
-        driver.find_element(By.CSS_SELECTOR,'img[class="css-a68fjf"]').click()
+            if c3(i_x[0].text) >= c3(i_x[i].text):
+                document(driver, 'test_f_popular_woman', 'фильтр популярность правильно')
+            else:
+                document(driver, 'test_f_popular_woman', 'фильтр популярность неправильно')
 
 
     def test_f_stars_woman(self,driver,found2):
@@ -516,13 +509,15 @@ class Test_filter_w:
         s = float(driver.find_element(By.CSS_SELECTOR, 'div[class="MuiBox-root css-wlea3r"] b').text)
         driver.find_element(By.CSS_SELECTOR, 'div[title="Закрыть"]').click()
         elements = driver.find_elements(By.CSS_SELECTOR, 'img[class="css-a68fjf"]')
+        screen(driver,'test_f_stars_woman')
         for i in range(len(elements)):
             elements[i].click()
-            try:
-                s >= float(driver.find_element(By.CSS_SELECTOR, 'div[class="MuiBox-root css-wlea3r"] b').text)
-            except:
-                document2(driver, 'test_f_starsw', 'фильтр рейтинг +')
+            if s >= float(driver.find_element(By.CSS_SELECTOR, 'div[class="MuiBox-root css-wlea3r"] b').text):
+                document(driver,"test_f_stars_woman","фильтр рейтинг правильно")
+            else:
+                document(driver, 'test_f_stars_woman', 'фильтр рейтинг неправильно')
             driver.find_element(By.CSS_SELECTOR, 'div[title="Закрыть"]').click()
+
 
 
     def test_f_min_price_max_woman(self,driver,found2,mi_n='23',ma_x='32'):
