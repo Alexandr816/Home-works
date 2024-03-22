@@ -288,9 +288,9 @@ class Test_filter:
         screen(driver,'test_f_by_price1')
         for i in range(len(i_x)):
             if c2(i_x[0].text) <= c2(i_x[i].text):
-                document(driver, 'test_f_by_price1', 'фильтр pass')
+                document(driver, 'test_f_by_price', 'фильтр pass')
             else:
-                document(driver, 'test_f_by_price1', f'фильтр fail{(i_x[0]).text} > {(i_x[i]).text}')
+                document(driver, 'test_f_by_price', f'фильтр fail{(i_x[0]).text} > {(i_x[i]).text}')
         # WebDriverWait(driver, 60).until(ES.element_to_be_clickable((By.XPATH, '//div[contains(text(),"цене")]')))
         u = driver.find_elements(By.XPATH, '//div[contains(text(),"цене")]')
         u[0].click()
@@ -299,9 +299,9 @@ class Test_filter:
         screen(driver, 'test_f_by_price2')
         for i in range(len(i_x)):
             if c2(i_x[0].text) >= c2(i_x[i].text):
-                document(driver, 'test_f_by_price1', f'фильтр pass-{i}')
+                document(driver, 'test_f_by_price', f'фильтр pass-{i}')
             else:
-                document(driver, 'test_f_by_price1', f'фильтр fail{i_x[0].text} < {i_x[i].text}')
+                document(driver, 'test_f_by_price', f'фильтр fail{i_x[0].text} < {i_x[i].text}')
 
 
 
@@ -310,7 +310,7 @@ class Test_filter:
         i_x = driver.find_elements(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]')
         print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]').text)
         document2(driver, 'test_f_popular',
-                  f'{print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]').text)}')
+                  f'{driver.find_element(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]').text}')
         for i in range(len(i_x)):
             if c3(i_x[0].text) >= c3(i_x[i].text):
                 document(driver,"test_f_popular",'фильтр популярность - Pass')
