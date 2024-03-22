@@ -278,50 +278,45 @@ class Test_looking:
 class Test_filter:
     '''В этом классе тестируются фильтры страницы'''
 
-    def test_f_by_price(self,driver,found):
+        def test_f_by_price(self,driver,found):
         '''Проверяется фильтр по возростанию и убыванию цены'''
-        WebDriverWait(driver,90).until(ES.element_to_be_clickable((By.XPATH, '//div[contains(text(),"цене")]')))
-        u = driver.find_elements(By.XPATH, '//div[contains(text(),"цене")]')
-        u[0].click()
-        i_x = driver.find_elements(By.CSS_SELECTOR,'span[class="css-bwtgpb"]')
-        print(driver.find_element(By.CSS_SELECTOR,'span[class="css-bwtgpb"]').text)
-        for i in range(len(i_x)):
-            try:
-                c2(i_x[0].text) <= c2(i_x[i].text)
-            except:
-                document2(driver,'filter',f'фильтр цена{c2(i_x[0].text)} > {c2(i_x[i].text)}')
-        #WebDriverWait(driver, 60).until(ES.element_to_be_clickable((By.XPATH, '//div[contains(text(),"цене")]')))
+        WebDriverWait(driver, 90).until(ES.element_to_be_clickable((By.XPATH, '//div[contains(text(),"цене")]')))
         u = driver.find_elements(By.XPATH, '//div[contains(text(),"цене")]')
         u[0].click()
         i_x = driver.find_elements(By.CSS_SELECTOR, 'span[class="css-bwtgpb"]')
         print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-bwtgpb"]').text)
+        screen(driver,'test_f_by_price1')
         for i in range(len(i_x)):
-            try:
-                c2(i_x[0].text) >= c2(i_x[i].text)
-            except:
-                document2(driver, 'filter', f'фильтр цена{c2(i_x[0].text)} < {c2(i_x[i].text)}')
+            if c2(i_x[0].text) <= c2(i_x[i].text):
+                document(driver, 'test_f_by_price1', 'фильтр pass')
+            else:
+                document(driver, 'test_f_by_price1', f'фильтр fail{(i_x[0]).text} > {(i_x[i]).text}')
+        # WebDriverWait(driver, 60).until(ES.element_to_be_clickable((By.XPATH, '//div[contains(text(),"цене")]')))
+        u = driver.find_elements(By.XPATH, '//div[contains(text(),"цене")]')
+        u[0].click()
+        i_x = css_s(driver, 'span[class="css-bwtgpb"]')
+        print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-bwtgpb"]').text)
+        screen(driver, 'test_f_by_price2')
+        for i in range(len(i_x)):
+            if c2(i_x[0].text) >= c2(i_x[i].text):
+                document(driver, 'test_f_by_price1', f'фильтр pass-{i}')
+            else:
+                document(driver, 'test_f_by_price1', f'фильтр fail{i_x[0].text} < {i_x[i].text}')
+
 
 
     def test_f_popular(self,driver,found):
         '''проверяем фильтрацию по популярности'''
         i_x = driver.find_elements(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]')
         print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]').text)
+        document2(driver, 'test_f_popular',
+                  f'{print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]').text)}')
         for i in range(len(i_x)):
-            try:
-                c3(i_x[0].text) >= c3(i_x[i].text)
-            except:
-                document2(driver, 'test_f_popular', 'фильтр популярность -')
-        u = driver.find_elements(By.XPATH, '//div[contains(text(),"популярности")]')
-        u[0].click()
-        screen(driver,'фильтр популярность +')
-        i_x = driver.find_elements(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]')
-        print(driver.find_element(By.CSS_SELECTOR, 'span[class="css-1t0tstb"]').text)
-        for i in range(len(i_x)):
-            try:
-                c3(i_x[0].text) <= c3(i_x[i].text)
-            except:
-                document2(driver, 'test_f_popular', 'фильтр популярности +')
-        driver.find_element(By.CSS_SELECTOR,'img[class="css-a68fjf"]').click()
+            if c3(i_x[0].text) >= c3(i_x[i].text):
+                document(driver,"test_f_popular",'фильтр популярность - Pass')
+            else:
+                document2(driver, 'test_f_popular', 'фильтр популярность - Fail')
+
 
 
     def test_f_stars(self,driver,found):
@@ -331,16 +326,19 @@ class Test_filter:
         u[0].click()
         driver.find_element(By.CSS_SELECTOR, 'img[class="css-a68fjf"]').click()
         driver.find_element(By.CSS_SELECTOR,'a[class="ButtonUnstyled-root css-ng34w0"]')
-        print(driver.find_element(By.CSS_SELECTOR, 'div[class="MuiBox-root css-wlea3r"] b').text)
+        s_s = driver.find_element(By.CSS_SELECTOR, 'div[class="MuiBox-root css-wlea3r"] b').text
+        print(s_s)
         s = float(driver.find_element(By.CSS_SELECTOR, 'div[class="MuiBox-root css-wlea3r"] b').text)
         driver.find_element(By.CSS_SELECTOR, 'div[title="Закрыть"]').click()
+        document2(driver, 'test_f_stars',
+                  f'по рейтингу-{s_s}')
         elements = driver.find_elements(By.CSS_SELECTOR, 'img[class="css-a68fjf"]')
         for i in range(len(elements)):
             elements[i].click()
-            try:
-                s >= float(driver.find_element(By.CSS_SELECTOR, 'div[class="MuiBox-root css-wlea3r"] b').text)
-            except:
-                document2(driver, 'test_f_stars', 'фильтр рейтинг +')
+            if s >= float(driver.find_element(By.CSS_SELECTOR, 'div[class="MuiBox-root css-wlea3r"] b').text):
+                print('верно')
+            else:
+                document2(driver, 'test_f_stars', 'фильтр рейтинг + Fail')
             driver.find_element(By.CSS_SELECTOR, 'div[title="Закрыть"]').click()
 
 
