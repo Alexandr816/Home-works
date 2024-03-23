@@ -439,7 +439,7 @@ class Test_filter:
                     print('ok')
                 else:
                     print('it is not ok')
-                    document(driver,'test_m_pt_ce',f'\nit is not ok-- screen:{f'test_m_pt_ce {i} '}')
+                    document(driver,'test_m_pt_ce',f'it is not ok-- screen:{f'test_m_pt_ce {i} '}')
                     screen(driver, f'test_m_pt_ce {i} ')
 
                 #assert len_m == len2_img
@@ -596,7 +596,7 @@ class Test_filter_w:
 
     def test_m_pt_ce_woman(self,driver,found2):#не забыть поставить found
         #driver.get('https://shopiland.ru/search?q=%D1%81%D1%82%D0%BE%D0%BB&markets=al%2Cka%2Coz%2Cwb')
-        screen(driver, f'test_m_pt_ce--все вместе-- ')
+        screen(driver, f'test_m_pt_ce_woman--все вместе-- ')
         '''ищем товар в каждом маркетплейсе отдельно'''
 
         #len_img = driver.find_elements(By.CSS_SELECTOR,'img[class="css-a68fjf"]')
@@ -608,7 +608,7 @@ class Test_filter_w:
                 # i = 'AliExpress'
                 k_clik(driver, k, i)
                 time.sleep(3)
-                screen(driver, f'test_m_pt_ce {i} ')
+                screen(driver, f'test_m_pt_ce_woman {i} ')
                 market_pls_qua = driver.find_elements(By.CSS_SELECTOR, 'span[class="css-18woau7"]')
                 #time.sleep(5)
                 len_m = c3(market_pls_qua[0].text)
@@ -617,8 +617,8 @@ class Test_filter_w:
                     print('ok')
                 else:
                     print('it is not ok')
-                    document(driver,'test_m_pt_ce',f'\nit is not ok-- screen:{f'test_m_pt_ce {i} '}')
-                    screen(driver, f'test_m_pt_ce {i} ')
+                    document(driver,'test_m_pt_ce_woman',f'\nit is not ok-- screen:{f'test_m_pt_ce_woman {i} '}')
+                    screen(driver, f'test_m_pt_ce_woman {i} ')
 
                 #assert len_m == len2_img
                 #WebDriverWait(driver, 60).until(
